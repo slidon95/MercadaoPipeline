@@ -9,7 +9,7 @@ The primary objective of this project is to develop an automated test script for
 	Feature: Register on Mercadao Store
  
   Scenario Outline: Test valid register
-		Given I am at mercadao register page using "<browser>"
+    Given I am at mercadao register page using "<browser>"
     When I insert valid data for register
     And I click to register button
     Then I will be at confirmation by email page "https://mercadao.pt/account/my-details"
@@ -18,7 +18,8 @@ The primary objective of this project is to develop an automated test script for
       | browser |
       | chrome  |
       | firefox |
-
+```
+```python
  @login
  Feature: Login on Mercadao Store
  
@@ -33,7 +34,8 @@ The primary objective of this project is to develop an automated test script for
       | browser |
       | chrome  |
       | firefox |
-
+```
+```python
   @search
 	Feature: Search and visualize product on Mercadao Store
   
@@ -49,7 +51,9 @@ The primary objective of this project is to develop an automated test script for
       | chrome  |
       | firefox |
 
-   
+  ```
+```python
+
    @add_to_cart
    Feature: Add item on Mercadao Store
   
@@ -66,7 +70,8 @@ The primary objective of this project is to develop an automated test script for
       | browser |
       | chrome  |
       | firefox |
-
+```
+```python
    @check_out
    Feature: Add item on Mercadao Store
   
