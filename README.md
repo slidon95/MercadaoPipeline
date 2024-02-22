@@ -134,7 +134,6 @@ In this project, there are 4 packages located in the src/test/java directory.
 
      - AddCartPage - methods related to the addCart page; 
      - CheckOutPage - methods related to checkOut page;
-     -  ExtraPage -methods related to the extras page;
      -  General - methods with general utility that can be applicable to all web pages;
      - GenerateRandomEmail - methods related to randomly generated email to be use on register;
      -  LoginPage - methods related to the login page;
