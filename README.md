@@ -125,47 +125,47 @@ allure –version
 
 In this project, there are 4 packages located in the src/test/java directory. 
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/7ec735c7-eeb5-4960-be0a-c20a9768bd03)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/4d5d43be-8efc-4062-a8a6-3dd1dcdbff6d)
 
 
 - The 'Config' package is dedicated to browser configuration. 
 
 - The 'PageObjects' package, we have the following classes: 
 
-     - BagsPage - methods related to the bags page; 
-     - ChooseFlight - methods related to flight selection and passenger information;
+     - AddCartPage - methods related to the addCart page; 
+     - CheckOutPage - methods related to checkOut page;
      -  ExtraPage -methods related to the extras page;
      -  General - methods with general utility that can be applicable to all web pages;
-     - Helpers - methods related to randomly generated names and methods related to the dates;
-     -  MainPage - methods associated with the main page where the origin and destination of the flight, the number of passengers, and the flight date are selected;
-     - ReviewAndPayPage - containing only one method that checks if the login button is displayed;
-     - SeatPage- methods related to the seat selection page. 
+     - GenerateRandomEmail - methods related to randomly generated email to be use on register;
+     -  LoginPage - methods related to the login page;
+     - RegisterPage - methods related to the register page;
+     - SearchPage- methods related to the search page. 
 
-- The 'ryanairBDD' package, there is the 'TestRunner' used to execute tests and display results.
+- The 'mercadaoBDD' package, there is the 'TestRunner' used to execute tests and display results.
 
-- In the 'RyanairBDD.steps' package, you will find the 'RyanairTest' class utilizing methods from the classes created in the 'PageObjects' package. While it is possible to consolidate all the code directly into this class, I have opted for separation to facilitate potential reuse in alternative test scenarios and to improve overall readability.
+- In the 'mercadaoBDD.steps' package, you will find the 'AddToCartTest, CheckOutTest, LoginTest, RegisterTest, SearchTest' class utilizing methods from the classes created in the 'PageObjects' package. While it is possible to consolidate all the code directly into this class, I have opted for separation to facilitate potential reuse in alternative test scenarios and to improve overall readability.
 
-In the src/test/java directory, you will find the searchAndBooking.feature,a scenario written in Gherkin, that provide a clear and understandable representation of test cases.
+In the src/test/java directory, you will find the 'addItem.feature, checkOut.feature, login.feature, register.feature, searchProdutfeature' a scenarios written in Gherkin, that provide a clear and understandable representation of test cases.
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/db108b37-1dd3-4ba7-955c-8de2b6bcd261)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/8930f076-8816-493d-b08e-95bc37b9695d)
 
-In the driver folder, you can locate the executable files for Chrome and Edge browsers.
+In the driver folder, you can locate the executable files for Chrome, firefox and Edge browsers.
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/4decb5d9-9b9e-465c-a006-0c637efc0841)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/19d8f485-5a03-4a60-a3a5-7a04ce863d76)
 
 On the target directory, you'll find the surefire_report containing the Allure reports generated for the tests.
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/f6c92c73-d129-435d-93f9-0958a8bd66aa)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/10701af5-3834-434d-9c29-ecebe828e2c3)
 
 Lastly, there is the pom.xml which serves for dependencies, build configurations, and plugins.
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/0a718bd9-9bfd-4f3d-ad8f-b8d776d92c22)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/b621991b-63c0-435e-945b-6678148ffcd7)
 
 ## Running Tests
 
 Ensure that the project is converted to TestNG, and then go to the project's root directory. Right-click on the project source, select 'Run As' and choose 'Maven Test'.
 
-![image](https://github.com/slidon95/Ryanair/assets/132678833/dab08d3b-7e52-472e-a383-777791f54328)
+![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/d93498d9-33c4-4c5e-b635-ef3aeef20d86)
 
 
 ## Report
