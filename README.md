@@ -179,12 +179,27 @@ allure serve .\target\surefire-reports
 
 ## DEMO
 
-The dynamic automated test is designed for the DUB to STN flight. This allows you to include any desired number of children and adults, as well as choose a date within a range of one year and one month. This flexibility is based on the observation that purchasing a ticket is only feasible within this specific timeframe.
+In this section, I will showcase a demo for each feature.
 
-https://github.com/slidon95/Ryanair/assets/132678833/24e3ee82-2774-473b-8cb3-797fa3bb0e7d
+- Register
+
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/7cae18f0-151d-4130-aefd-97b927f79ed9
+
+- Login
+
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/3d3ad4c1-1698-43c5-8b46-943c038bd9cc
+
+- Search for a product
+
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/b31414c6-3763-4dd4-ad52-d4803453fc30
+
+- Add an item to the cart
+
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/b56e25c2-d727-4f89-a2ff-989364b9913d
+
+- Simulate Checkout
+
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/0e7aa486-d4f4-4760-918a-f68b2cb31074
 
 
-In the automated test, I have integrated error exceptions for both past dates and dates exceeding one year and one month into the future.
-
-https://github.com/slidon95/Ryanair/assets/132678833/bec067bc-f565-4869-b196-2e2d6df3e012
 
