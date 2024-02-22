@@ -94,33 +94,6 @@ Then I should receive a message stating "Olá, a confirmação de pagamento foi 
 - Maven
 - WebDriver for your preferred browser (Chrome, firefox and Edge)
 
-## Installation
-
- - Allure Reporting
-
-1. Install Scoop (if not installed) - Open PowerShell with administrator privileges and run the following commands to install Scoop:
-
-```bash
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-   Typical Installation - Run this command from a non-admin PowerShell to install scoop with default configuration,scoop will be install to C:\Users\<YOUR USERNAME>\scoop.
-
-```bash
-irm get.scoop.sh | iex 
-```
-2.Install Allure using Scoop - Once Scoop is installed, you can install Allure using the following command:
-
-```bash
-scoop install allure
-```
-This command will download and install the Allure package.
-
-3.Verify the installation - To verify that Allure is installed successfully, you can run:
-```bash
-allure –version
-```
-
 ## Project organization
 
 In this project, there are 4 packages located in the src/test/java directory. 
