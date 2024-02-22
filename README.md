@@ -169,12 +169,9 @@ Ensure that the project is converted to TestNG, and then go to the project's roo
 
 ## Report and Run in Jenkins
 
-To view the results in Allure, open PowerShell and enter the command:
+Test reports are generated using Allure Report in Jenkins Pipeline.
 
-```bash
-allure serve .\target\surefire-reports
-```
-![image](https://github.com/slidon95/Ryanair/assets/132678833/6e7e97f6-60e6-420c-a5e9-d95d4e892aab)
+https://github.com/slidon95/MercadaoPipeline/assets/132678833/9e0cf003-76f0-4cb6-bb93-67a47d1efee4
 
 
 ## DEMO
