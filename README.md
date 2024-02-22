@@ -167,7 +167,7 @@ Ensure that the project is converted to TestNG, and then go to the project's roo
 ![image](https://github.com/slidon95/MercadaoPipeline/assets/132678833/d93498d9-33c4-4c5e-b635-ef3aeef20d86)
 
 
-## Report
+## Report and Run in Jenkins
 
 To view the results in Allure, open PowerShell and enter the command:
 
