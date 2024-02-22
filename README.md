@@ -92,7 +92,7 @@ Then I should receive a message stating "Olá, a confirmação de pagamento foi 
 
 - Java JDK 8 or higher
 - Maven
-- WebDriver for your preferred browser (Chrome and Edge)
+- WebDriver for your preferred browser (Chrome, firefox and Edge)
 
 ## Installation
 
